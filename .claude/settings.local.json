@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p tools data data/user_data utils)",
+      "Bash(chainlit run chainlit_app.py -w)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/EliciaAtkinson57/Elicia_Ai.git)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
