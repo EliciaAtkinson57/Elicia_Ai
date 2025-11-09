@@ -5,7 +5,14 @@
       "Bash(chainlit run chainlit_app.py -w)",
       "Bash(git init)",
       "Bash(git remote add origin https://github.com/EliciaAtkinson57/Elicia_Ai.git)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd comprehensive health and fitness AI agent with specialized tools\n\nBuilt Elicia AI as an expert health and fitness coach with 13 specialized tools:\n\nFitness Calculators:\n- BMI calculator with health assessment\n- TDEE calculator for daily calorie needs  \n- Macronutrient calculator (protein/carbs/fat distribution)\n- One rep max calculator for strength training\n- Body fat percentage estimator (Navy method)\n- Heart rate training zones\n- Hydration recommendations\n\nWorkout Tools:\n- Personalized workout plan generator\n- Exercise recommendations by muscle group\n- Progressive overload calculator\n\nNutrition Tools:\n- Meal plan generator (3-6 meals/day)\n- Nutrition database for common foods\n- Healthy food alternatives\n\nFeatures:\n- OpenAI function calling integration for automatic tool selection\n- Chainlit web UI with streaming responses\n- Conversation memory and context awareness\n- Professional health coach system prompt\n- Evidence-based recommendations with safety guidelines\n- CLI version (agent.py) and web version (chainlit_app.py)\n\nTech Stack:\n- Python 3.11\n- OpenAI GPT-4o-mini\n- Chainlit for UI\n- Custom tool registry system\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git config user.email \"elicia@elicia-ai.com\")",
+      "Bash(git config user.name \"Elicia Atkinson\")",
+      "Bash(git push -u origin master)",
+      "Bash(git add .claude/settings.local.json)",
+      "Bash(git commit -m \"Update Claude Code settings\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []
